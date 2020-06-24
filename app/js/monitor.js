@@ -5,7 +5,7 @@ const mem = osu.mem;
 const os = osu.os;
 
 // CPU overload warning threshold
-let cpuOverload = 1;
+let cpuOverload = 80;
 let alertFrequency = 1;
 
 localStorage.clear();
